@@ -1,0 +1,6 @@
+frase = input('Digite o seu nome completo:').strip()
+print(frase.upper())
+print(frase.lower())
+print(len(frase)-frase.count(' '))
+ideia = frase.split()
+print(len(ideia[0]))
